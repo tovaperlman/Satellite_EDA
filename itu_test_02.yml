@@ -1,0 +1,18 @@
+name: itu_test_02
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # - python>=3.5
+  # - anaconda
+  - GDAL==3.3.1
+  - geemap==0.8.18
+  - geopandas==0.9.0
+  - lxml==4.6.3
+  - tqdm
+  - pip
+  - pip:
+    # works for regular pip packages
+    - savreaderwriter==3.4.2
+    - facebook-business==11.0.0
+ 
